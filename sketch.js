@@ -1,10 +1,10 @@
 let canvas;
 let canvasWidth = 600;
 let canvasHeight = 400;
-var Ghost;
+var FIGHT;
 
 function preload() {
-  Ghost = loadAnimation('G/UP.png', 'G/DOWN.png');
+  FIGHT = loadAnimation('G/UP.png', 'G/DOWN.png');
 }
 
 function setup() {
@@ -15,5 +15,5 @@ function setup() {
 
 function draw() {
   background(255);
-  animation(Ghost, 250, 200);
+  animation(FIGHT, 250, 200);
 }
