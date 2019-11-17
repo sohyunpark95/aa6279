@@ -4,7 +4,7 @@ let canvasHeight = 400;
 var FIGHT;
 
 function preload() {
-  FIGHT = loadAnimation('G/UP.png', 'G/DOWN.png');
+  FIGHT = loadAnimation('FIGHT/UP.png', 'FIGHT/DOWN.png');
 }
 
 function setup() {
