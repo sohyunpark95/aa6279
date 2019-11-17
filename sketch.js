@@ -4,8 +4,7 @@ let canvasHeight = 400;
 var Ghost;
 
 function preload() {
-  Ghost = loadAnimation('Ghost/ghost_1.png', 'Ghost/ghost_3.png');
-  
+  Ghost = loadAnimation('G/ghost_1.png', 'G/ghost_3.png');
 }
 
 function setup() {
