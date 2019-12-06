@@ -10,7 +10,7 @@ function setup() {
 
 function draw() {
   background(30);
-  rect(mouseX, mouseY, 100, 100);
+  rect(mouseX, mouseY, 100, 200);
 rect(0,200,250,100);
 rect(350,200,250,100);
 rect(0,300,250,100);
